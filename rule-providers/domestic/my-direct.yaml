@@ -1,0 +1,22 @@
+# - DOMAIN-SUFFIX,google.com
+# - DOMAIN-KEYWORD,google
+# - DOMAIN,ad.com
+# - SRC-IP-CIDR,192.168.1.201/32
+# - IP-CIDR,127.0.0.0/8
+# - GEOIP,CN
+# - DST-PORT,80
+# - SRC-PORT,7777
+
+payload:
+- DOMAIN,injections.adguard.org
+- DOMAIN,local.adguard.org
+- DOMAIN-SUFFIX,proxy-provider.seekhue.com
+- DOMAIN-SUFFIX,push.apple.com
+- DOMAIN-SUFFIX,markji.com
+- DOMAIN-SUFFIX,maimemo.com
+- DOMAIN-SUFFIX,tominlab.com
+- DOMAIN,cm.steampowered.com
+- DOMAIN,steamserver.net
+- DOMAIN-SUFFIX,storage.live.com
+- DOMAIN-SUFFIX,dm.files.1drv.com
+- DOMAIN,kita.teracloud.jp
