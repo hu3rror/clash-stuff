@@ -1,1 +1,9 @@
+#########################################
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains known addresses that are avaliable in the Mainland China.
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN,streaming-qobuz-std.akamaized.net
