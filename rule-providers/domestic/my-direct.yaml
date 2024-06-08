@@ -8,11 +8,10 @@
 # - SRC-PORT,7777
 
 payload:
-- DOMAIN,injections.adguard.org
-- DOMAIN,local.adguard.org
 - DOMAIN-SUFFIX,proxy-provider.seekhue.com
 - DOMAIN-SUFFIX,push.apple.com
 - DOMAIN-SUFFIX,markji.com
+- DOMAIN-SUFFIX,mojidict.com
 - DOMAIN-SUFFIX,maimemo.com
 - DOMAIN-SUFFIX,tominlab.com
 - DOMAIN,cm.steampowered.com
@@ -20,4 +19,3 @@ payload:
 - DOMAIN-SUFFIX,storage.live.com
 - DOMAIN-SUFFIX,dm.files.1drv.com
 - DOMAIN,kita.teracloud.jp
-- DOMAIN-SUFFIX,mojidict.com
