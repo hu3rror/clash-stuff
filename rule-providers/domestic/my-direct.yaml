@@ -14,8 +14,3 @@ payload:
 - DOMAIN-SUFFIX,mojidict.com
 - DOMAIN-SUFFIX,maimemo.com
 - DOMAIN-SUFFIX,tominlab.com
-- DOMAIN,cm.steampowered.com
-- DOMAIN,steamserver.net
-- DOMAIN-SUFFIX,storage.live.com
-- DOMAIN-SUFFIX,dm.files.1drv.com
-- DOMAIN,kita.teracloud.jp
