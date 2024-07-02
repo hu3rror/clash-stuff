@@ -8,7 +8,6 @@
 # - SRC-PORT,7777
 
 payload:
-- DOMAIN-SUFFIX,proxy-provider.seekhue.com
 - DOMAIN-SUFFIX,push.apple.com
 - DOMAIN-SUFFIX,markji.com
 - DOMAIN-SUFFIX,mojidict.com
