@@ -13,6 +13,5 @@ payload:
 - DOMAIN-SUFFIX,vivaldi.com
 - DOMAIN-SUFFIX,vivaldi.net
 - DOMAIN-SUFFIX,appinn.net
-- DOMAIN-KEYWORD,duolingo
 - DOMAIN,api.onedrive.com
 - DOMAIN-SUFFIX,codeium.com
