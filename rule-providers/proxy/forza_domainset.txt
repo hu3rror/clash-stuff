@@ -1,4 +1,10 @@
 *.xboxlive.com
+#xsts.auth.xboxlive.com
+*.*.xboxlive.com
+#sunrise.maelstrom.gameservices.xboxlive.com
+*.*.*.xboxlive.com
 *.*.forzamotorsport.net
 *.*.akamaiedge.net
 *.xboxlive.com.akadns.net
+#xblcxplatqos-aue-9-18-2-0.cloudapp.net
+*.cloudapp.net
