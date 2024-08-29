@@ -8,3 +8,4 @@
 *.xboxlive.com.akadns.net
 #xblcxplatqos-aue-9-18-2-0.cloudapp.net
 *.cloudapp.net
+catalog.gamepass.com
