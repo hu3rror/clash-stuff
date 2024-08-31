@@ -4,3 +4,4 @@
 +.vivaldi.net
 +.appinn.net
 +.codeium.com
++.metacubex.one
