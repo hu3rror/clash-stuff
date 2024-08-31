@@ -6,3 +6,5 @@
 +.tominlab.com
 +.xiaoheihe.cn
 +.kita.teracloud.jp
++.jihujiasuqi.com
++.dota2.com.cn

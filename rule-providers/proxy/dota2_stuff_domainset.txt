@@ -1,0 +1,3 @@
++.stratz.com
++.dota2protracker.com
++.dotabuff.com
