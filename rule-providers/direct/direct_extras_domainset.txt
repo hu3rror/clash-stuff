@@ -5,3 +5,4 @@
 +.maimemostatus.com
 +.tominlab.com
 +.xiaoheihe.cn
++.kita.teracloud.jp
