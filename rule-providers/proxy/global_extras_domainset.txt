@@ -1,0 +1,6 @@
++.freemdict.com
++.dvd.chat
++.vivaldi.com
++.vivaldi.net
++.appinn.net
++.codeium.com

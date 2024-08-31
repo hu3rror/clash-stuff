@@ -1,0 +1,7 @@
++.push.apple.com
++.markji.com
++.mojidict.com
++.maimemo.com
++.maimemostatus.com
++.tominlab.com
++.xiaoheihe.cn
