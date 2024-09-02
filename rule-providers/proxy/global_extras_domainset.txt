@@ -1,5 +1,6 @@
 +.freemdict.com
 +.dvd.chat
+calckey.dvd.moe
 +.vivaldi.com
 +.vivaldi.net
 +.appinn.net
