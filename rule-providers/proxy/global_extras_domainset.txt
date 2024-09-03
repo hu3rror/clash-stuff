@@ -6,3 +6,4 @@
 +.appinn.net
 +.codeium.com
 +.metacubex.one
++.mega.nz
