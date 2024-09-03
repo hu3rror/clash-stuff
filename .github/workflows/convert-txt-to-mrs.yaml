@@ -1,6 +1,7 @@
 name: Convert txt to mrs
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'rule-providers/*/*.txt'
