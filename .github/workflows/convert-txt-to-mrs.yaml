@@ -3,7 +3,7 @@ name: Convert txt to mrs
 on:
   push:
     paths:
-      - 'rule-providers/**/*.txt'
+      - 'rule-providers/*/*.txt'
 
 jobs:
 
@@ -11,6 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Get latest mihomo version
+      run: |
+        TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
+        echo "TAG=$TAG" >> $GITHUB_ENV
+    - name: Download mihomo
+      run: |
+        curl -L "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
+        gzip -d mihomo-linux-amd64-v${TAG}.gz
+        mv mihomo-linux-amd64 /usr/bin/clash-meta
+
     - uses: actions/checkout@v4
     
     - name: Run convert script
