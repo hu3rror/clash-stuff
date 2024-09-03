@@ -1,0 +1,25 @@
+name: Convert txt to mrs
+
+on:
+  push:
+    paths:
+      - 'rule-providers/**/*.txt'
+
+jobs:
+
+  convert:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run convert script
+      run: |
+        cd rule-providers
+        ./convert.sh
+        
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Auto-convert txt to mrs
+        branch: main
