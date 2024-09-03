@@ -11,13 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Get latest mihomo version
+    - name: Get latest mihomo
       run: |
         TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
-        echo "TAG=$TAG" >> $GITHUB_ENV
-    - name: Download mihomo
-      run: |
-        curl -SsL "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
+        wget "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
         gzip -d mihomo-linux-amd64-v${TAG}.gz
         mv mihomo-linux-amd64 /usr/bin/clash-meta
 
