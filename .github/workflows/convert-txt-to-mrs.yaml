@@ -17,13 +17,15 @@ jobs:
         TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
         wget "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
         gzip -d mihomo-linux-amd64-v${TAG}.gz
-        sudo mv mihomo-linux-amd64-v${TAG} /usr/bin/clash-meta
+        mv mihomo-linux-amd64-v${TAG} /usr/local/bin/clash-meta
+        chmod +x /usr/local/bin/clash-meta
 
     - uses: actions/checkout@v4
     
     - name: Run convert script
       run: |
         cd rule-providers
+        chmod +x ./convert.sh
         ./convert.sh
         
     - name: Commit changes
