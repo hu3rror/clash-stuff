@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # 获取脚本所在目录
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
