@@ -17,7 +17,7 @@ jobs:
         echo "TAG=$TAG" >> $GITHUB_ENV
     - name: Download mihomo
       run: |
-        curl -L "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
+        curl -SsL "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
         gzip -d mihomo-linux-amd64-v${TAG}.gz
         mv mihomo-linux-amd64 /usr/bin/clash-meta
 

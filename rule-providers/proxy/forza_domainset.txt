@@ -3,4 +3,3 @@
 *.*.akamaiedge.net
 +.xboxlive.com.akadns.net
 *.cloudapp.net
-catalog.gamepass.com
