@@ -3,10 +3,3 @@
 +.maimemo.com
 +.maimemostatus.com
 +.tominlab.com
-+.xiaoheihe.cn
-+.kita.teracloud.jp
-+.jihujiasuqi.com
-+.dota2.com.cn
-+.gateway.6pn.dev
-+.fly.dev
-+.fly.io
