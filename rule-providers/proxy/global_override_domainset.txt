@@ -7,3 +7,4 @@
 +.codeium.com
 +.metacubex.one
 +.mega.nz
++.mega.io

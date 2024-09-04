@@ -1,4 +1,3 @@
-+.push.apple.com
 +.markji.com
 +.mojidict.com
 +.maimemo.com

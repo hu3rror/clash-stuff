@@ -3,3 +3,4 @@
 *.*.akamaiedge.net
 +.xboxlive.com.akadns.net
 *.cloudapp.net
+playfabapi.com
