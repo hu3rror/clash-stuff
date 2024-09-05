@@ -2,7 +2,7 @@
 set -e
 
 # 获取脚本所在目录
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && cd .. && cd rule-providers && pwd)"
 
 # 定义输入和输出文件夹
 INPUT_DIRS=("$SCRIPT_DIR/direct" "$SCRIPT_DIR/domestic" "$SCRIPT_DIR/proxy")

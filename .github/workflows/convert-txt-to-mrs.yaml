@@ -24,9 +24,9 @@ jobs:
     
     - name: Run convert script
       run: |
-        cd rule-providers
-        chmod +x ./convert.sh
-        ./convert.sh
+        cd scripts
+        chmod +x ./convert-txt-2-mrs.sh
+        ./convert-txt-2-mrs.sh
         
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v5
