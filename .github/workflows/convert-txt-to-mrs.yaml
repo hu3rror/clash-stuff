@@ -20,21 +20,33 @@ jobs:
         restore-keys: |
           clash-meta-${{ runner.os }}-
     
-    - name: Check if clash-meta exists
-      id: check_clash_meta
+    - name: Get latest version tag
+      id: get_latest_tag
       run: |
-        if [ ! -f /usr/local/bin/clash-meta ]; then
-          echo "clash-meta does not exist."
-          echo "download=true" >> $GITHUB_ENV
+        TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
+        echo "latest_version=${TAG}" >> $GITHUB_ENV
+
+    - name: Check if clash-meta is the latest version
+      id: check_version
+      run: |
+        if command -v clash-meta &> /dev/null; then
+          current_version=$(clash-meta -v | awk '{print $3}')
+          echo "Current version: $current_version"
+          echo "Latest version: $latest_version"
+          if [ "$current_version" != "$latest_version" ]; then
+            echo "update=true" >> $GITHUB_ENV
+          else
+            echo "update=false" >> $GITHUB_ENV
+          fi
         else
-          echo "clash-meta exists."
-          echo "download=false" >> $GITHUB_ENV
+          echo "clash-meta not found."
+          echo "update=true" >> $GITHUB_ENV
         fi
 
     - name: Get latest mihomo
-      if: env.download == 'true'
+      if: env.update == 'true'
       run: |
-        TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
+        TAG=${{ env.latest_version }}
         wget "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"
         gzip -d mihomo-linux-amd64-v${TAG}.gz
         mv mihomo-linux-amd64-v${TAG} /usr/local/bin/clash-meta
