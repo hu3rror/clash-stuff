@@ -10,9 +10,29 @@ jobs:
 
   convert:
     runs-on: ubuntu-latest
-    
+
     steps:
+    - name: Cache clash-meta
+      uses: actions/cache@v4
+      with:
+        path: /usr/local/bin/clash-meta
+        key: clash-meta-${{ runner.os }}-${{ hashFiles('**/rule-providers/*/*.txt') }}
+        restore-keys: |
+          clash-meta-${{ runner.os }}-
+    
+    - name: Check if clash-meta exists
+      id: check_clash_meta
+      run: |
+        if [ ! -f /usr/local/bin/clash-meta ]; then
+          echo "clash-meta does not exist."
+          echo "download=true" >> $GITHUB_ENV
+        else
+          echo "clash-meta exists."
+          echo "download=false" >> $GITHUB_ENV
+        fi
+
     - name: Get latest mihomo
+      if: env.download == 'true'
       run: |
         TAG=$(curl -s "https://api.github.com/repos/MetaCubeX/mihomo/tags" | jq -r '.[0].name' | tr -d 'v')
         wget "https://github.com/MetaCubeX/mihomo/releases/download/v${TAG}/mihomo-linux-amd64-v${TAG}.gz"

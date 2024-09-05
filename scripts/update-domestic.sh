@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # URL of the domestic.ts file
 DOMESTIC_TS_URL="https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/domestic.ts"
