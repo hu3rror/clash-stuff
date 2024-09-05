@@ -1,0 +1,2 @@
++.upos-sz-mirrorbd.bilivideo.com
++.upos-sz-mirrorbos.bilivideo.com

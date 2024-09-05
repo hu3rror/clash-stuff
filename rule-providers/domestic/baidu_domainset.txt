@@ -1,4 +1,3 @@
-+.upos-sz-mirrorbos.bilivideo.com
 +.91.com
 +.hao123.com
 +.baidu.cn
@@ -20,3 +19,6 @@
 +.shifen.com
 +.jomodns.com
 +.bdydns.com
++.jomoxc.com
++.duapp.com
++.antpcdn.com

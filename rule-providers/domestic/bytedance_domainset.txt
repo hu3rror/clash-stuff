@@ -31,3 +31,6 @@
 +.byted-static.com
 +.volces.com
 +.baike.com
++.zjcdn.com
++.zijieapi.com
++.feelgood.cn

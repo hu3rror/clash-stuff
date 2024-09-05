@@ -1,13 +1,11 @@
-+.upos-sz-mirrorali.bilivideo.com
 +.uc.cn
 +.ucweb.com
 +.alibaba.com
-+.alibabadns.com
 +.alicdn.com
 +.ialicdn.com
++.myalicdn.com
 +.alidns.com
 +.aliimg.com
-+.alipaydns.com
 +.aliyun.com
 +.aliyuncs.com
 +.alikunlun.com
@@ -19,6 +17,7 @@
 +.alipayobjects.com
 +.alibaba-inc.com
 +.alibabausercontent.com
++.alibabadns.com
 +.alicloudccp.com
 +.alipan.com
 +.aliyundrive.com
@@ -33,7 +32,6 @@
 +.amap.com
 +.gaode.com
 +.autonavi.com
-+.dingtalk.com
 +.dingtalk.com
 +.mxhichina.com
 +.soku.com
@@ -55,7 +53,6 @@
 +.taopiaopiao.com
 +.fliggy.com
 +.koubei.com
-+.guoguo-app.com
 +.mybank.cn
 +.mmstat.com
 +.uczzd.cn
@@ -72,3 +69,4 @@
 +.aliapp.org
 +.tanx.com
 +.hellobike.com
++.hichina.com
