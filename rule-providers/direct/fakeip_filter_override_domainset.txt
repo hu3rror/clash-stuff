@@ -1,5 +1,6 @@
 +.xiaoheihe.cn
 +.jihujiasuqi.com
++.wyjsq.com
 +.ggkuai.com
 +.gateway.6pn.dev
 +.dota2.com.cn
