@@ -6,3 +6,4 @@
 +.dota2.com.cn
 +.fly.dev
 +.fly.io
+mpsqosprod.*.cloudapp.azure.com
