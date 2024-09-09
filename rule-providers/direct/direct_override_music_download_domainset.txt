@@ -1,2 +1,2 @@
 streaming-qobuz-std.akamaized.net
-music.sound-scape.xyz
++.sound-scape.xyz
