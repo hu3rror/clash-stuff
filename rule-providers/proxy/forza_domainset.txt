@@ -3,4 +3,4 @@
 *.*.akamaiedge.net
 +.xboxlive.com.akadns.net
 *.cloudapp.net
-*.*.cloudapp.azure.com #dns1176-3b7d1a76-b34f-4b10-80c7-5ed9cb6e45cd.westeurope.cloudapp.azure.com
+*.*.cloudapp.azure.com
