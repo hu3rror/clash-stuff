@@ -1,6 +1,6 @@
-+.xboxlive.com
+#+.xboxlive.com
+#*.*.akamaiedge.net
+#+.xboxlive.com.akadns.net
 +.forzamotorsport.net
-*.*.akamaiedge.net
-+.xboxlive.com.akadns.net
 *.cloudapp.net
 *.*.cloudapp.azure.com
