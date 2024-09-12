@@ -3,3 +3,21 @@
 +.maimemo.com
 +.maimemostatus.com
 +.tominlab.com
+# no fake ip
++.xiaoheihe.cn
++.jihujiasuqi.com
++.xunyou.com
++.wyjsq.com
++.xunlei.com
++.uu.163.com
++.leigod.com
++.bohejiasuqi.com
++.jiasu.bohe.com
++.tmjiasuqi.com
++.guangshan01.com
++.gijsq.com
++.ggkuai.com
++.gateway.6pn.dev
++.dota2.com.cn
++.fly.dev
++.fly.io

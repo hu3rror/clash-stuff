@@ -4,3 +4,4 @@
 +.forzamotorsport.net
 *.cloudapp.net
 *.*.cloudapp.azure.com
+mpsqosprod.*.cloudapp.azure.com
