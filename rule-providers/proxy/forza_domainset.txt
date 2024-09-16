@@ -1,10 +1,12 @@
 # main server (for auction, coating)
 +.forzamotorsport.net
+
 # API server
+2fe29.playfabapi.com
+#+.playfabapi.com
+
 *.cloudapp.net
 *.*.cloudapp.azure.com
-+.playfabapi.com
-
 #中国香港
 #pfmsqos.eastasia.cloudapp.azure.com
 #新加坡
