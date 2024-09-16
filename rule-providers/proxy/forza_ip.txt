@@ -1,2 +1,3 @@
-# japaneast
+# japaneast udp
 48.210.0.0/16
+#AND,((IP-CIDR,48.210.0.0/16,no-resolve),(NETWORK,UDP)),DIRECT
