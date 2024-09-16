@@ -4,8 +4,8 @@ gameservices.fh5.forzamotorsport.net
 #+.forzamotorsport.net
 
 # fh4
-e3c21.playfabapi.com
 mpsqosprod.*.cloudapp.azure.com
+e3c21.playfabapi.com
 
 # fh5
 pfmsqos.*.cloudapp.azure.com
