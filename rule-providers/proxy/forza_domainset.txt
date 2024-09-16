@@ -1,6 +1,37 @@
+# main server (for auction, coating)
++.forzamotorsport.net
+# API server
+*.cloudapp.net
+*.*.cloudapp.azure.com
++.playfabapi.com
+
+#中国香港
+#pfmsqos.eastasia.cloudapp.azure.com
+#新加坡
+#pfmsqos.southeastasia.cloudapp.azure.com
+#日本东京
+#pfmsqos.japaneast.cloudapp.azure.com
+#爱尔兰都柏林
+#pfmsqos.northeurope.cloudapp.azure.com
+#美国芝加哥
+#pfmsqos.northcentralus.cloudapp.azure.com
+#巴西圣保罗
+#pfmsqos.brazilsouth.cloudapp.azure.com
+#美国圣何塞
+#pfmsqos.westus.cloudapp.azure.com
+#美国斯特灵
+#pfmsqos.eastus.cloudapp.azure.com
+#荷兰阿姆斯特丹
+#pfmsqos.westeurope.cloudapp.azure.com
+#澳大利亚悉尼
+#pfmsqos.australiaeast.cloudapp.azure.com
+#美国圣安东尼奥
+#pfmsqos.southcentralus.cloudapp.azure.com
+
+# For Xbox users avatars loading
+images-eds-ssl.xboxlive.com
+
+# only for xbox testing
 #+.xboxlive.com
 #*.*.akamaiedge.net
 #+.xboxlive.com.akadns.net
-+.forzamotorsport.net
-*.cloudapp.net
-*.*.cloudapp.azure.com
