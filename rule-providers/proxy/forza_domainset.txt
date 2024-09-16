@@ -1,5 +1,7 @@
 # fh4/5 domain server (for auction, coating)
-+.forzamotorsport.net
+gameservices.fh4.forzamotorsport.net
+gameservices.fh5.forzamotorsport.net
+#+.forzamotorsport.net
 
 # fh4
 e3c21.playfabapi.com
