@@ -1,33 +1,52 @@
-# main server (for auction, coating)
+# fh4/5 domain server (for auction, coating)
 +.forzamotorsport.net
 
-# API server
-2fe29.playfabapi.com
-#+.playfabapi.com
+# fh4
+e3c21.playfabapi.com
+mpsqosprod.*.cloudapp.azure.com
 
+# fh5
+pfmsqos.*.cloudapp.azure.com
+2fe29.playfabapi.com
+
+# For fallback
 *.cloudapp.net
 *.*.cloudapp.azure.com
++.playfabapi.com
+
+# fh4/5 regions
 #中国香港
+#mpsqosprod.eastasia.cloudapp.azure.com
 #pfmsqos.eastasia.cloudapp.azure.com
 #新加坡
+#mpsqosprod.southeastasia.cloudapp.azure.com
 #pfmsqos.southeastasia.cloudapp.azure.com
 #日本东京
+#mpsqosprod.japaneast.cloudapp.azure.com
 #pfmsqos.japaneast.cloudapp.azure.com
 #爱尔兰都柏林
+#mpsqosprod.westeurope.cloudapp.azure.com
 #pfmsqos.northeurope.cloudapp.azure.com
 #美国芝加哥
+#mpsqosprod.westcentralus.cloudapp.azure.com
 #pfmsqos.northcentralus.cloudapp.azure.com
 #巴西圣保罗
+#mpsqosprod.southcentralus.cloudapp.azure.com
 #pfmsqos.brazilsouth.cloudapp.azure.com
 #美国圣何塞
+#mpsqosprod.southeastasia.cloudapp.azure.com
 #pfmsqos.westus.cloudapp.azure.com
 #美国斯特灵
+#mpsqosprod.centralus.cloudapp.azure.com
 #pfmsqos.eastus.cloudapp.azure.com
 #荷兰阿姆斯特丹
+#mpsqosprod.westeurope.cloudapp.azure.com
 #pfmsqos.westeurope.cloudapp.azure.com
 #澳大利亚悉尼
+#mpsqosprod.australiaeast.cloudapp.azure.com
 #pfmsqos.australiaeast.cloudapp.azure.com
 #美国圣安东尼奥
+#mpsqosprod.southindia.cloudapp.azure.com
 #pfmsqos.southcentralus.cloudapp.azure.com
 
 # For Xbox users avatars loading
