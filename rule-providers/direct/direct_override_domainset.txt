@@ -21,4 +21,3 @@ easytomessage.com
 +.gateway.6pn.dev
 +.dota2.com.cn
 +.fly.dev
-+.fly.io

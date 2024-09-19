@@ -8,3 +8,4 @@
 +.metacubex.one
 +.mega.nz
 +.mega.io
++.fly.io
