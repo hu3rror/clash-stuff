@@ -34,3 +34,6 @@
 +.zjcdn.com
 +.zijieapi.com
 +.feelgood.cn
++.bytetcc.com
++.bytednsdoc.com
++.byteimg.com

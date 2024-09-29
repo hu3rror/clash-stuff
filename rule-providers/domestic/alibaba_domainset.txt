@@ -70,3 +70,4 @@
 +.tanx.com
 +.hellobike.com
 +.hichina.com
++.yunos.com

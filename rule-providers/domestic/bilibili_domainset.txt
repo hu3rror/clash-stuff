@@ -1,10 +1,9 @@
 +.upos-sz-mirrorcoso1.bilivideo.com
 +.acg.tv
 +.b23.tv
-+.acgvideo.com
 +.bilibili.cn
 +.bilibili.com
-+.bilibili.tv
++.acgvideo.com
 +.bilivideo.com
 +.bilivideo.cn
 +.bilivideo.net

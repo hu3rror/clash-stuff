@@ -37,10 +37,8 @@
 +.wegameplus.com
 +.cdn-go.cn
 +.tencentcs.cn
-+.tencent-coud.cn
 +.qcloudimg.com
 +.dnspod.cn
-+.yunos.com
 +.yitao.com
 +.anticheatexpert.com
 +.url.cn
