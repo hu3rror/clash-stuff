@@ -1,11 +1,10 @@
-+.dns.pub
-+.doh.pub
 +.qcloud.com
 +.gtimg.cn
 +.gtimg.com
 +.gtimg.com.cn
 +.gdtimg.com
 +.idqqimg.com
++.udqqimg.com
 +.igamecj.com
 +.myapp.com
 +.myqcloud.com
@@ -14,11 +13,10 @@
 +.qlogo.cn
 +.qq.com
 +.qq.com.cn
-+.qq.wang
-+.qqmail.cn
 +.qqmail.com
 +.qzone.com
 +.tencent-cloud.net
++.tencent-cloud.com
 +.tencent.com
 +.tencent.com.cn
 +.tencentmusic.com
@@ -39,7 +37,6 @@
 +.tencentcs.cn
 +.qcloudimg.com
 +.dnspod.cn
-+.yitao.com
 +.anticheatexpert.com
 +.url.cn
 +.qlivecdn.com

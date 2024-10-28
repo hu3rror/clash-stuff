@@ -1,5 +1,4 @@
 +.uc.cn
-+.ucweb.com
 +.alibaba.com
 +.alicdn.com
 +.ialicdn.com
@@ -27,8 +26,8 @@
 +.cainiaoyizhan.com
 +.guoguo-app.com
 +.etao.com
++.yitao.com
 +.1688.com
-+.16888.com
 +.amap.com
 +.gaode.com
 +.autonavi.com
@@ -40,7 +39,6 @@
 +.taobaocdn.com
 +.tbcache.com
 +.tmall.com
-+.tmall.hk
 +.xiami.com
 +.xiami.net
 +.ykimg.com
@@ -71,3 +69,4 @@
 +.hellobike.com
 +.hichina.com
 +.yunos.com
++.dns.alidns.com

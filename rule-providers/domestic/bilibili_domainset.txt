@@ -1,4 +1,4 @@
-+.upos-sz-mirrorcoso1.bilivideo.com
++.upos-sz-mirrorcosbstar1.bilivideo.com
 +.acg.tv
 +.b23.tv
 +.bilibili.cn
@@ -11,11 +11,8 @@
 +.biliimg.com
 +.biliapi.com
 +.biliapi.net
-+.biligame.cn
 +.biligame.com
 +.biligame.net
 +.bilicomic.com
 +.bilicomics.com
-+.bilibilipay.cn
-+.bilibilipay.com
 +.bilicdn1.com

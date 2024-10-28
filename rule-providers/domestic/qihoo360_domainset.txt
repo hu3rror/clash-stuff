@@ -33,3 +33,5 @@
 +.yunpan.com.cn
 +.qh-cdn.com
 +.baomitu.com
++.qiku.com
++.doh.360.cn

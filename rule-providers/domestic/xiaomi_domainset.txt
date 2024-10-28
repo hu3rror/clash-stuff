@@ -1,12 +1,15 @@
 +.mi.com
 +.duokan.com
 +.mi-img.com
++.mi-idc.com
++.xiaoaisound.com
++.xiaomixiaoai.com
 +.mi-fds.com
 +.mifile.cn
++.mijia.tech
 +.miui.com
 +.xiaomi.com
 +.xiaomi.cn
 +.xiaomi.net
 +.xiaomiev.com
 +.xiaomiyoupin.com
-+.saxyit.com

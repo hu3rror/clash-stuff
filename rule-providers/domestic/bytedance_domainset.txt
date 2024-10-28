@@ -37,3 +37,4 @@
 +.bytetcc.com
 +.bytednsdoc.com
 +.byteimg.com
++.byteacctimg.com
