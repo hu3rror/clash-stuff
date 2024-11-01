@@ -65,3 +65,15 @@ jobs:
       with:
         commit_message: Auto-convert txt to mrs
         branch: main
+
+    # - name: Git push assets to "meta-rule" branch
+    #   run: |
+    #       cd meta-rule || exit 1
+    #       git init
+    #       git config --local user.name "github-actions[bot]"
+    #       git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    #       git checkout -b meta
+    #       git add .
+    #       git commit -m "Released on ${{ env.BUILDTIME }}"
+    #       git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+    #       git push -f -u origin meta
