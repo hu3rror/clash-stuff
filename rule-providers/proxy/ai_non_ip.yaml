@@ -35,11 +35,17 @@ payload:
 - DOMAIN-SUFFIX,anthropic.com
 - DOMAIN-SUFFIX,claude.ai
 # openai chatgpt
-- DOMAIN-SUFFIX,chatgpt.com
-- DOMAIN-SUFFIX,oaiusercontent.com
-- DOMAIN-SUFFIX,oaistatic.com
+- DOMAIN,cdn.auth0.com
+- DOMAIN,challenges.cloudflare.com
+- DOMAIN,openaiapi-site.azureedge.net
+- DOMAIN-SUFFIX,sentry.io
+- DOMAIN-SUFFIX,ai.com
+- DOMAIN-SUFFIX,identrust.com
 - DOMAIN-SUFFIX,openai.com
-- DOMAIN-KEYWORD,openai
+- DOMAIN-SUFFIX,oaistatic.com
+- DOMAIN-SUFFIX,oaiusercontent.com
+- DOMAIN-SUFFIX,chatgpt.com
+
 # heypi
 - DOMAIN-SUFFIX,heypi.com
 - DOMAIN-SUFFIX,pi.ai
