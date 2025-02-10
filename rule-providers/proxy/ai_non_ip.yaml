@@ -29,6 +29,7 @@ payload:
 # x/twitter ai
 - DOMAIN-SUFFIX,x.ai
 # anthropic cluade
+- DOMAIN,cdn.usefathom.com
 - DOMAIN-SUFFIX,anthropic.com
 - DOMAIN-SUFFIX,claude.ai
 # openai chatgpt
