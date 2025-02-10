@@ -1,0 +1,55 @@
+# DOMAIN-SUFFIX,google.com
+# DOMAIN-KEYWORD,google
+# DOMAIN,ad.com
+# SRC-IP-CIDR,192.168.1.201/32
+# IP-CIDR,127.0.0.0/8
+# GEOIP,CN
+# DST-PORT,80
+# SRC-PORT,7777
+
+# google ai
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,ai.com
+
+# poe
+DOMAIN-SUFFIX,poe.com
+
+# perplexity
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# x/twitter ai
+DOMAIN-SUFFIX,x.ai
+
+# anthropic cluade
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# openai chatgpt
+DOMAIN,cdn.auth0.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgpt.com
+
+# heypi
+DOMAIN-SUFFIX,heypi.com
+DOMAIN-SUFFIX,pi.ai
