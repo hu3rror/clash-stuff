@@ -25,7 +25,9 @@ payload:
 # poe
 - DOMAIN-SUFFIX,poe.com
 # perplexity
+- DOMAIN,pplx-res.cloudinary.com
 - DOMAIN-SUFFIX,perplexity.ai
+- DOMAIN-SUFFIX,pplx.ai
 # x/twitter ai
 - DOMAIN-SUFFIX,x.ai
 # anthropic cluade
