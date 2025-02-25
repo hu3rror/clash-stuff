@@ -56,3 +56,6 @@ DOMAIN-SUFFIX,pi.ai
 
 # groq
 DOMAIN-SUFFIX,groq.com
+
+# openrouter
+DOMAIN-SUFFIX,openrouter.ai
