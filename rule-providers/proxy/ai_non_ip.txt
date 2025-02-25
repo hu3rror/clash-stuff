@@ -59,3 +59,7 @@ DOMAIN-SUFFIX,groq.com
 
 # openrouter
 DOMAIN-SUFFIX,openrouter.ai
+
+# grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
