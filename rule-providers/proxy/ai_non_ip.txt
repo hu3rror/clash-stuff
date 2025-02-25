@@ -53,3 +53,6 @@ DOMAIN-SUFFIX,chatgpt.com
 # heypi
 DOMAIN-SUFFIX,heypi.com
 DOMAIN-SUFFIX,pi.ai
+
+# groq
+DOMAIN-SUFFIX,groq.com
