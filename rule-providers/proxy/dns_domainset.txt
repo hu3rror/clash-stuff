@@ -1,0 +1,10 @@
+cloudflare-dns.com
+dns.cloudflare.com
+dns.google
+dns.google.com
+doh.opendns.com
+dns.quad9.net
++.adguard-dns.com
+doh.dns.sb
+doh.sb
+dot.sb
