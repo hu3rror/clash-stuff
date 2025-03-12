@@ -1,0 +1,4 @@
+doh.pub
+dns.pub
+dot.pub
+dns.alidns.com
