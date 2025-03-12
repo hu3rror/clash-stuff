@@ -8,3 +8,4 @@ dns.quad9.net
 doh.dns.sb
 doh.sb
 dot.sb
+one.one.one.one
