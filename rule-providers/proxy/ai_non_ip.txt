@@ -29,8 +29,13 @@ DOMAIN-SUFFIX,poe.com
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,perplexity.org
+DOMAIN-SUFFIX,pproxy.link
+DOMAIN-SUFFIX,api.perplexityai.workers.dev
 
 # x/twitter ai
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
 
 # anthropic cluade
@@ -56,10 +61,3 @@ DOMAIN-SUFFIX,pi.ai
 
 # groq
 DOMAIN-SUFFIX,groq.com
-
-# openrouter
-DOMAIN-SUFFIX,openrouter.ai
-
-# grok
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.ai

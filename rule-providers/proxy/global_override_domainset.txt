@@ -9,3 +9,4 @@
 +.mega.nz
 +.mega.io
 +.fly.io
++.openrouter.ai
