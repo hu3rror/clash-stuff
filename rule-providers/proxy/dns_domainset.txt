@@ -9,3 +9,4 @@ doh.dns.sb
 doh.sb
 dot.sb
 one.one.one.one
+dns11.quad9.net
